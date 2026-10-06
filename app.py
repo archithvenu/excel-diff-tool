@@ -1,11 +1,3 @@
-Here is the updated Streamlit script. I've added a clean tabbed interface (st.tabs) so users can seamlessly switch between dragging-and-dropping local Excel files and pasting web URLs.
-
-The comparison logic is now unified, meaning the app processes the files exactly the same way regardless of how they are inputted.
-
-Updated Multi-Source Comparison App (app.py)
-Replace your existing app.py with this updated code:
-
-Python
 import streamlit as st
 import pandas as pd
 import requests
